@@ -1,6 +1,5 @@
-import discord, serverping
+import discord, serverping, os, json, requests, time, asyncio
 from discord.ext import commands
-import os, json, requests, time, asyncio
 
 TOKEN = 'MTIzOTAzNTY0NzEyNjE0Mjk4Nw.GbaGS-.8GqToBDtds8cqsU-CdLAN8VrvGLb2JRvYCDKtg'
 SERVER_ID = '1239035503450263642'
